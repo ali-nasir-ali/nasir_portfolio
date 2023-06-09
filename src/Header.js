@@ -5,13 +5,13 @@ function Header() {
     <header className="name_box">
       <div className="logo_box"></div>
       <div className="name_maya">
-        <a className="" href="index.html">
+        <a href="index.html">
           <h2>nasir ali</h2>
         </a>
       </div>
       <p>/</p>
       <div className="name_manager">
-        <a className="" href="index.html">
+        <a href="index.html">
           <p>SOFTWARE DEVELOPER</p>
         </a>
       </div>

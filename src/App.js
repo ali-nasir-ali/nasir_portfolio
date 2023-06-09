@@ -1,5 +1,5 @@
 import React from "react";
-// import Header from './Header';
+import Header from "./Header";
 // import Footer from './Footer';
 // import MainSection from './MainSection';
 import "./App.css";
@@ -10,8 +10,8 @@ function App() {
       <p>
         Edit <code>src/App.js</code> and save to reload.
       </p>
-
-      {/* <Header />
+      <Header />
+      {/* 
       <MainSection />
       <Footer />  */}
     </div>

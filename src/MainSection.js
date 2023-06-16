@@ -2,8 +2,8 @@ import React from "react";
 
 function MainSection() {
   return (
-    <main className="scroll_container">
-      <div className="hero_card_text scroll_container_child">
+    <main>
+      <div className="hero_card_text">
         <div>
           <h1 className="hero_card_text_h1">Hello</h1>
           <h2 className="hero_card_text_h2">Here's who I am & what I do</h2>
@@ -15,7 +15,7 @@ function MainSection() {
           <p className="hero_card_text_p">I'm a great place for you to tell a story and let your users know a little more about you.</p>
         </div>
       </div>
-      <div className="hero_card scroll_container_child">
+      <div className="hero_card">
         <div className="hero_card_name_image">
           <img
             className="hero_card_image"
@@ -34,7 +34,7 @@ function MainSection() {
             <a href="projects.html">PROJECTS</a>
           </button>
         </div>
-        <div className="hero_social scroll_container_child">
+        <div className="hero_social">
           {/* social links */}
           <a className="hero_social_link" href="https://join.slack.com/t/newworkspace-mhh2606/shared_invite/zt-1a4xeyiau-am5~499oOPi2QCtrHhSaLQ">
             <i className="fa fa-slack"></i>
